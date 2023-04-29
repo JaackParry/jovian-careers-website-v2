@@ -2,6 +2,7 @@ from flask import Flask, render_template, jsonify
 
 app = Flask(__name__)
 
+#creating an array to use as dynamic content on the web page
 JOBS = [
   {
     'id': 1,
